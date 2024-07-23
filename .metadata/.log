@@ -2140,3 +2140,1037 @@ Binding(ALT+SHIFT+D R,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2024-07-23 09:33:02.767 -----------------------------------------------
+eclipse.buildId=4.23.1.202406150140
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/gupro/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/gupro/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-23 09:33:03.956
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-23 09:33:08.546
+!MESSAGE Logback config file: /Users/gupro/Documents/DevData/SpringBoot/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-07-23 09:33:08.731
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-07-23 09:33:08.731
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-07-23 09:33:08.940
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-07-23 09:33:08.940
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 09:33:11.612
+!MESSAGE Boot project ADDED: B00SpringBootProject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 09:33:11.612
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 09:33:11.621
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 09:33:11.621
+!MESSAGE Boot project ADDED: Ex02_JavaCodeDI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 09:33:11.621
+!MESSAGE Boot project ADDED: Ex03_AnnotationDI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 09:33:11.622
+!MESSAGE Boot project ADDED: Ex04_WebBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 09:33:11.622
+!MESSAGE Boot project ADDED: Ex05_JspUse
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 09:33:11.622
+!MESSAGE Boot project ADDED: Ex06_Model
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 09:33:11.622
+!MESSAGE Boot project ADDED: Ex07_Form
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 09:33:11.622
+!MESSAGE Boot project ADDED: Ex08_Lombok
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-07-23 09:33:11.629
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.3.v20240426-1530/jre/bin/java
+-cp
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.55.1.202406141939/servers/spring-boot-language-server/BOOT-INF/classes:/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.55.1.202406141939/servers/spring-boot-language-server/BOOT-INF/lib/*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.55.1.202406141939/servers/spring-boot-language-server/BOOT-INF/classes/application.properties
+-XX:ErrorFile=/Users/gupro/Documents/DevData/SpringBoot/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1721694791629
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 09:33:11.629
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-07-23 09:33:11.633
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 22918
+
+!ENTRY org.eclipse.jface 2 0 2024-07-23 09:33:19.126
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-07-23 09:33:19.126
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.wst.server.launchShortcut.run"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.rap.tools.launch.RAPLaunchShortcut.run"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-07-23 09:33:19.126
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.wst.server.launchShortcut.debug"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 09:33:49.775
+!MESSAGE Classpath changed for project: Ex09_Validator
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 09:33:49.775
+!MESSAGE Boot project ADDED: Ex09_Validator
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 09:36:32.773
+!MESSAGE Classpath changed for project: Ex09_Validator
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 09:37:24.730
+!MESSAGE Classpath changed for project: Ex09_Validator
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 09:37:31.528
+!MESSAGE Classpath changed for project: Ex09_Validator
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 10:58:06.025
+!MESSAGE Classpath changed for project: Ex10_ValidationUtils
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 10:58:06.861
+!MESSAGE Classpath changed for project: Ex10_ValidationUtils
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 10:58:06.861
+!MESSAGE Boot project ADDED: Ex10_ValidationUtils
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 11:08:56.599
+!MESSAGE Classpath changed for project: Ex10_ValidationUtils
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 11:09:04.837
+!MESSAGE Classpath changed for project: Ex10_ValidationUtils
+!SESSION 2024-07-23 11:10:11.706 -----------------------------------------------
+eclipse.buildId=4.23.1.202406150140
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/gupro/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/gupro/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-23 11:10:13.093
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-23 11:10:16.107
+!MESSAGE Logback config file: /Users/gupro/Documents/DevData/SpringBoot/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-07-23 11:10:16.281
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-07-23 11:10:16.281
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-07-23 11:10:16.462
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-07-23 11:10:16.462
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-07-23 11:10:18.448
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.3.v20240426-1530/jre/bin/java
+-cp
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.55.1.202406141939/servers/spring-boot-language-server/BOOT-INF/classes:/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.55.1.202406141939/servers/spring-boot-language-server/BOOT-INF/lib/*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.55.1.202406141939/servers/spring-boot-language-server/BOOT-INF/classes/application.properties
+-XX:ErrorFile=/Users/gupro/Documents/DevData/SpringBoot/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1721700618448
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 11:10:18.448
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-07-23 11:10:18.450
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 32938
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 11:10:19.121
+!MESSAGE Boot project ADDED: B00SpringBootProject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 11:10:19.122
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 11:10:19.122
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 11:10:19.122
+!MESSAGE Boot project ADDED: Ex02_JavaCodeDI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 11:10:19.122
+!MESSAGE Boot project ADDED: Ex03_AnnotationDI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 11:10:19.123
+!MESSAGE Boot project ADDED: Ex04_WebBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 11:10:19.123
+!MESSAGE Boot project ADDED: Ex05_JspUse
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 11:10:19.126
+!MESSAGE Boot project ADDED: Ex06_Model
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 11:10:19.131
+!MESSAGE Boot project ADDED: Ex07_Form
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 11:10:19.133
+!MESSAGE Boot project ADDED: Ex08_Lombok
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 11:10:19.137
+!MESSAGE Boot project ADDED: Ex09_Validator
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 11:10:19.138
+!MESSAGE Boot project ADDED: Ex10_ValidationUtils
+
+!ENTRY org.eclipse.jface 2 0 2024-07-23 11:10:19.915
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-07-23 11:10:19.915
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.wst.server.launchShortcut.run"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.rap.tools.launch.RAPLaunchShortcut.run"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-07-23 11:10:19.915
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.wst.server.launchShortcut.debug"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 11:35:42.673
+!MESSAGE Classpath changed for project: Ex11_Valid_initBinder
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 11:35:44.203
+!MESSAGE Classpath changed for project: Ex11_Valid_initBinder
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 11:35:45.631
+!MESSAGE Classpath changed for project: Ex11_Valid_initBinder
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 11:35:45.632
+!MESSAGE Boot project ADDED: Ex11_Valid_initBinder
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 11:39:40.508
+!MESSAGE Classpath changed for project: Ex11_Valid_initBinder
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 11:39:46.545
+!MESSAGE Classpath changed for project: Ex11_Valid_initBinder
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 11:56:46.781
+!MESSAGE Classpath changed for project: Ex12_Valid_Annotation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 11:56:46.782
+!MESSAGE Boot project ADDED: Ex12_Valid_Annotation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 11:59:39.855
+!MESSAGE Classpath changed for project: Ex12_Valid_Annotation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 11:59:51.214
+!MESSAGE Classpath changed for project: Ex12_Valid_Annotation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 12:00:36.077
+!MESSAGE Classpath changed for project: Ex12_Valid_Annotation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 12:00:41.130
+!MESSAGE Classpath changed for project: Ex12_Valid_Annotation
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-07-23 13:19:29.318
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 13:48:01.292
+!MESSAGE Classpath changed for project: Ex13_JdbcTemplate
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 13:48:01.293
+!MESSAGE Boot project ADDED: Ex13_JdbcTemplate
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:00:49.271
+!MESSAGE Classpath changed for project: Ex13_JdbcTemplate
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:17:38.980
+!MESSAGE Classpath changed for project: Ex13_JdbcTemplate
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:17:43.763
+!MESSAGE Classpath changed for project: Ex13_JdbcTemplate
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:17:57.479
+!MESSAGE Classpath changed for project: Ex13_JdbcTemplate
+!SESSION 2024-07-23 14:21:57.897 -----------------------------------------------
+eclipse.buildId=4.23.1.202406150140
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/gupro/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/gupro/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-23 14:21:59.038
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-23 14:22:02.800
+!MESSAGE Logback config file: /Users/gupro/Documents/DevData/SpringBoot/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-07-23 14:22:02.970
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-07-23 14:22:02.971
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-07-23 14:22:03.152
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-07-23 14:22:03.152
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:22:04.952
+!MESSAGE Boot project ADDED: B00SpringBootProject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:22:04.952
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:22:04.989
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:22:04.990
+!MESSAGE Boot project ADDED: Ex02_JavaCodeDI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:22:04.990
+!MESSAGE Boot project ADDED: Ex03_AnnotationDI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:22:04.990
+!MESSAGE Boot project ADDED: Ex04_WebBasic
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-07-23 14:22:05.002
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.3.v20240426-1530/jre/bin/java
+-cp
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.55.1.202406141939/servers/spring-boot-language-server/BOOT-INF/classes:/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.55.1.202406141939/servers/spring-boot-language-server/BOOT-INF/lib/*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.55.1.202406141939/servers/spring-boot-language-server/BOOT-INF/classes/application.properties
+-XX:ErrorFile=/Users/gupro/Documents/DevData/SpringBoot/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1721712125002
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:22:05.002
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-07-23 14:22:05.006
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 54086
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:22:05.052
+!MESSAGE Boot project ADDED: Ex05_JspUse
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:22:05.061
+!MESSAGE Boot project ADDED: Ex06_Model
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:22:05.074
+!MESSAGE Boot project ADDED: Ex07_Form
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:22:05.076
+!MESSAGE Boot project ADDED: Ex08_Lombok
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:22:05.079
+!MESSAGE Boot project ADDED: Ex09_Validator
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:22:05.083
+!MESSAGE Boot project ADDED: Ex10_ValidationUtils
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:22:05.084
+!MESSAGE Boot project ADDED: Ex11_Valid_initBinder
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:22:05.091
+!MESSAGE Boot project ADDED: Ex12_Valid_Annotation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:22:05.091
+!MESSAGE Boot project ADDED: Ex13_JdbcTemplate
+
+!ENTRY org.eclipse.jface 2 0 2024-07-23 14:22:08.158
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-07-23 14:22:08.158
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.wst.server.launchShortcut.run"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.rap.tools.launch.RAPLaunchShortcut.run"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-07-23 14:22:08.158
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.wst.server.launchShortcut.debug"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:22:35.507
+!MESSAGE Classpath changed for project: Ex13_JdbcTemplate
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:22:44.424
+!MESSAGE Classpath changed for project: Ex13_JdbcTemplate
+!SESSION 2024-07-23 14:32:51.641 -----------------------------------------------
+eclipse.buildId=4.23.1.202406150140
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/gupro/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/gupro/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-23 14:32:53.014
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-23 14:33:36.272
+!MESSAGE Logback config file: /Users/gupro/Documents/DevData/SpringBoot/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-07-23 14:33:36.412
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-07-23 14:33:36.412
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-07-23 14:33:36.592
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-07-23 14:33:36.592
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-07-23 14:33:38.560
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.3.v20240426-1530/jre/bin/java
+-cp
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.55.1.202406141939/servers/spring-boot-language-server/BOOT-INF/classes:/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.55.1.202406141939/servers/spring-boot-language-server/BOOT-INF/lib/*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.55.1.202406141939/servers/spring-boot-language-server/BOOT-INF/classes/application.properties
+-XX:ErrorFile=/Users/gupro/Documents/DevData/SpringBoot/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1721712818559
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:33:38.560
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-07-23 14:33:38.562
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 55306
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:33:38.843
+!MESSAGE Boot project ADDED: B00SpringBootProject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:33:38.844
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:33:38.845
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:33:38.845
+!MESSAGE Boot project ADDED: Ex02_JavaCodeDI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:33:38.845
+!MESSAGE Boot project ADDED: Ex03_AnnotationDI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:33:38.845
+!MESSAGE Boot project ADDED: Ex04_WebBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:33:38.845
+!MESSAGE Boot project ADDED: Ex05_JspUse
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:33:38.845
+!MESSAGE Boot project ADDED: Ex06_Model
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:33:38.845
+!MESSAGE Boot project ADDED: Ex07_Form
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:33:38.846
+!MESSAGE Boot project ADDED: Ex08_Lombok
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:33:38.846
+!MESSAGE Boot project ADDED: Ex09_Validator
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:33:38.846
+!MESSAGE Boot project ADDED: Ex10_ValidationUtils
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:33:38.847
+!MESSAGE Boot project ADDED: Ex11_Valid_initBinder
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:33:38.847
+!MESSAGE Boot project ADDED: Ex12_Valid_Annotation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:33:38.848
+!MESSAGE Boot project ADDED: Ex13_JdbcTemplate
+
+!ENTRY org.eclipse.jface 2 0 2024-07-23 14:33:39.166
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-07-23 14:33:39.166
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.wst.server.launchShortcut.run"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.rap.tools.launch.RAPLaunchShortcut.run"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-07-23 14:33:39.166
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.wst.server.launchShortcut.debug"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:49:40.849
+!MESSAGE Classpath changed for project: Ex14_SimpleBBS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:49:40.849
+!MESSAGE Boot project ADDED: Ex14_SimpleBBS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 15:02:24.293
+!MESSAGE Classpath changed for project: Ex13_JdbcTemplate
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 15:02:39.703
+!MESSAGE Classpath changed for project: Ex13_JdbcTemplate
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 15:02:45.712
+!MESSAGE Classpath changed for project: Ex13_JdbcTemplate
+!SESSION 2024-07-23 15:03:10.602 -----------------------------------------------
+eclipse.buildId=4.23.1.202406150140
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/gupro/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/gupro/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-23 15:03:11.710
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-23 15:03:16.811
+!MESSAGE Logback config file: /Users/gupro/Documents/DevData/SpringBoot/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-07-23 15:03:16.948
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-07-23 15:03:16.948
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-07-23 15:03:17.102
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-07-23 15:03:17.102
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 15:03:19.050
+!MESSAGE Boot project ADDED: B00SpringBootProject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 15:03:19.051
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 15:03:19.063
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 15:03:19.063
+!MESSAGE Boot project ADDED: Ex02_JavaCodeDI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 15:03:19.063
+!MESSAGE Boot project ADDED: Ex03_AnnotationDI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 15:03:19.063
+!MESSAGE Boot project ADDED: Ex04_WebBasic
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-07-23 15:03:19.071
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.3.v20240426-1530/jre/bin/java
+-cp
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.55.1.202406141939/servers/spring-boot-language-server/BOOT-INF/classes:/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.55.1.202406141939/servers/spring-boot-language-server/BOOT-INF/lib/*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.55.1.202406141939/servers/spring-boot-language-server/BOOT-INF/classes/application.properties
+-XX:ErrorFile=/Users/gupro/Documents/DevData/SpringBoot/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1721714599071
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 15:03:19.072
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-07-23 15:03:19.075
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 58509
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 15:03:19.098
+!MESSAGE Boot project ADDED: Ex05_JspUse
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 15:03:19.100
+!MESSAGE Boot project ADDED: Ex06_Model
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 15:03:19.105
+!MESSAGE Boot project ADDED: Ex07_Form
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 15:03:19.108
+!MESSAGE Boot project ADDED: Ex08_Lombok
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 15:03:19.111
+!MESSAGE Boot project ADDED: Ex09_Validator
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 15:03:19.116
+!MESSAGE Boot project ADDED: Ex10_ValidationUtils
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 15:03:19.120
+!MESSAGE Boot project ADDED: Ex11_Valid_initBinder
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 15:03:19.129
+!MESSAGE Boot project ADDED: Ex12_Valid_Annotation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 15:03:19.131
+!MESSAGE Boot project ADDED: Ex13_JdbcTemplate
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 15:03:19.131
+!MESSAGE Boot project ADDED: Ex14_SimpleBBS
+
+!ENTRY org.eclipse.jface 2 0 2024-07-23 15:03:19.346
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-07-23 15:03:19.346
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.wst.server.launchShortcut.run"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.rap.tools.launch.RAPLaunchShortcut.run"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-07-23 15:03:19.346
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.wst.server.launchShortcut.debug"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-07-23 15:22:38.899
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.wst.xml.core 4 4 2024-07-23 15:32:59.657
+!MESSAGE IStructuredDocumentRegion management failed.
+!STACK 0
+org.eclipse.wst.xml.core.internal.document.StructuredDocumentRegionManagementException: IStructuredDocumentRegion management failed.
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.removeStructuredDocumentRegion(XMLModelParser.java:2267)
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.changeStructuredDocumentRegion(XMLModelParser.java:548)
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.changeTagName(XMLModelParser.java:580)
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.changeRegion(XMLModelParser.java:349)
+	at org.eclipse.wst.xml.core.internal.document.DOMModelImpl.regionChanged(DOMModelImpl.java:801)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument._fireEvent(BasicStructuredDocument.java:546)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.fireStructuredDocumentEvent(BasicStructuredDocument.java:1184)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.internalReplaceText(BasicStructuredDocument.java:1968)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2426)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2411)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.access$2(JobSafeStructuredDocument.java:1)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument$3.run(JobSafeStructuredDocument.java:143)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.wst.sse.ui.EditorExecutionContext.execute(EditorExecutionContext.java:150)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.replaceText(JobSafeStructuredDocument.java:146)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replace(BasicStructuredDocument.java:2371)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.access$0(JobSafeStructuredDocument.java:1)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument$1.run(JobSafeStructuredDocument.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.wst.sse.ui.EditorExecutionContext.execute(EditorExecutionContext.java:150)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.replace(JobSafeStructuredDocument.java:108)
+	at org.eclipse.jface.text.projection.ProjectionTextStore.replace(ProjectionTextStore.java:102)
+	at org.eclipse.jface.text.AbstractDocument.replace(AbstractDocument.java:1084)
+	at org.eclipse.jface.text.AbstractDocument.replace(AbstractDocument.java:1109)
+	at org.eclipse.jface.text.projection.ProjectionDocument.replace(ProjectionDocument.java:627)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.replaceTextRange(DefaultDocumentAdapter.java:223)
+	at org.eclipse.swt.custom.StyledText.modifyContent(StyledText.java:7127)
+	at org.eclipse.swt.custom.StyledText.sendKeyEvent(StyledText.java:8027)
+	at org.eclipse.swt.custom.StyledText.doBackspace(StyledText.java:1829)
+	at org.eclipse.swt.custom.StyledText.invokeAction(StyledText.java:6916)
+	at org.eclipse.swt.custom.StyledText.handleKey(StyledText.java:5714)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5741)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4660)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1622)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1645)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1630)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1659)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1655)
+	at org.eclipse.swt.widgets.Canvas.sendKeyEvent(Canvas.java:522)
+	at org.eclipse.swt.widgets.Control.doCommandBySelector(Control.java:1052)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6443)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSResponder.interpretKeyEvents(NSResponder.java:59)
+	at org.eclipse.swt.widgets.Composite.keyDown(Composite.java:607)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6289)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Widget.callSuper(Widget.java:239)
+	at org.eclipse.swt.widgets.Widget.windowSendEvent(Widget.java:2372)
+	at org.eclipse.swt.widgets.Shell.windowSendEvent(Shell.java:2502)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6401)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationSendEvent(Display.java:5705)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5845)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.sendEvent(NSApplication.java:117)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4000)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+!SESSION 2024-07-23 15:40:00.875 -----------------------------------------------
+eclipse.buildId=4.23.1.202406150140
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/gupro/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/gupro/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-23 15:40:02.313
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-23 15:40:04.981
+!MESSAGE Logback config file: /Users/gupro/Documents/DevData/SpringBoot/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-07-23 15:40:05.106
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-07-23 15:40:05.106
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-07-23 15:40:05.297
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-07-23 15:40:05.297
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-07-23 15:40:07.307
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.3.v20240426-1530/jre/bin/java
+-cp
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.55.1.202406141939/servers/spring-boot-language-server/BOOT-INF/classes:/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.55.1.202406141939/servers/spring-boot-language-server/BOOT-INF/lib/*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.55.1.202406141939/servers/spring-boot-language-server/BOOT-INF/classes/application.properties
+-XX:ErrorFile=/Users/gupro/Documents/DevData/SpringBoot/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1721716807307
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 15:40:07.307
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-07-23 15:40:07.310
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 62186
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 15:40:08.040
+!MESSAGE Boot project ADDED: B00SpringBootProject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 15:40:08.040
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 15:40:08.041
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 15:40:08.042
+!MESSAGE Boot project ADDED: Ex02_JavaCodeDI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 15:40:08.042
+!MESSAGE Boot project ADDED: Ex03_AnnotationDI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 15:40:08.042
+!MESSAGE Boot project ADDED: Ex04_WebBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 15:40:08.043
+!MESSAGE Boot project ADDED: Ex05_JspUse
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 15:40:08.043
+!MESSAGE Boot project ADDED: Ex06_Model
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 15:40:08.043
+!MESSAGE Boot project ADDED: Ex07_Form
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 15:40:08.043
+!MESSAGE Boot project ADDED: Ex08_Lombok
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 15:40:08.064
+!MESSAGE Boot project ADDED: Ex09_Validator
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 15:40:08.067
+!MESSAGE Boot project ADDED: Ex10_ValidationUtils
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 15:40:08.071
+!MESSAGE Boot project ADDED: Ex11_Valid_initBinder
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 15:40:08.071
+!MESSAGE Boot project ADDED: Ex12_Valid_Annotation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 15:40:08.072
+!MESSAGE Boot project ADDED: Ex13_JdbcTemplate
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 15:40:08.072
+!MESSAGE Boot project ADDED: Ex14_SimpleBBS
+
+!ENTRY org.eclipse.jface 2 0 2024-07-23 15:40:08.830
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-07-23 15:40:08.830
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.wst.server.launchShortcut.run"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.rap.tools.launch.RAPLaunchShortcut.run"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-07-23 15:40:08.830
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.wst.server.launchShortcut.debug"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 15:44:35.614
+!MESSAGE Classpath changed for project: Ex14_SimpleBBS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 15:44:45.386
+!MESSAGE Classpath changed for project: Ex14_SimpleBBS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 15:44:49.867
+!MESSAGE Classpath changed for project: Ex14_SimpleBBS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 15:45:14.203
+!MESSAGE Classpath changed for project: Ex14_SimpleBBS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 15:45:33.939
+!MESSAGE Classpath changed for project: Ex14_SimpleBBS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 15:45:38.521
+!MESSAGE Classpath changed for project: Ex14_SimpleBBS
+
+!ENTRY org.eclipse.egit.core 4 0 2024-07-23 15:48:44.848
+!MESSAGE Failed finding RepositoryMapping
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Ex04_WebBasic/bin/main/com/study/springboot)[369]: java.lang.Exception: Resource '/Ex04_WebBasic/bin/main/com/study/springboot' is not local.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkLocal(Resource.java:376)
+	at org.eclipse.core.internal.resources.Resource.checkAccessibleAndLocal(Resource.java:245)
+	at org.eclipse.core.internal.resources.Resource.getSessionProperty(Resource.java:1223)
+	at org.eclipse.egit.core.project.GitProjectData.getRepositoryMapping(GitProjectData.java:568)
+	at org.eclipse.egit.core.project.RepositoryMapping.findMapping(RepositoryMapping.java:360)
+	at org.eclipse.egit.core.project.RepositoryMapping.getMapping(RepositoryMapping.java:296)
+	at org.eclipse.egit.core.internal.util.ResourceUtil.getRepository(ResourceUtil.java:708)
+	at org.eclipse.egit.core.internal.info.GitItemStateFactory.getIndexDiffDataOrNull(GitItemStateFactory.java:106)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorateResource(GitLightweightDecorator.java:194)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:172)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:250)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:345)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:410)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 369 2024-07-23 15:48:44.851
+!MESSAGE Resource '/Ex04_WebBasic/bin/main/com/study/springboot' is not local.
+!STACK 0
+java.lang.Exception: Resource '/Ex04_WebBasic/bin/main/com/study/springboot' is not local.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkLocal(Resource.java:376)
+	at org.eclipse.core.internal.resources.Resource.checkAccessibleAndLocal(Resource.java:245)
+	at org.eclipse.core.internal.resources.Resource.getSessionProperty(Resource.java:1223)
+	at org.eclipse.egit.core.project.GitProjectData.getRepositoryMapping(GitProjectData.java:568)
+	at org.eclipse.egit.core.project.RepositoryMapping.findMapping(RepositoryMapping.java:360)
+	at org.eclipse.egit.core.project.RepositoryMapping.getMapping(RepositoryMapping.java:296)
+	at org.eclipse.egit.core.internal.util.ResourceUtil.getRepository(ResourceUtil.java:708)
+	at org.eclipse.egit.core.internal.info.GitItemStateFactory.getIndexDiffDataOrNull(GitItemStateFactory.java:106)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorateResource(GitLightweightDecorator.java:194)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:172)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:250)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:345)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:410)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

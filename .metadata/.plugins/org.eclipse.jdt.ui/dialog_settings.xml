@@ -15,7 +15,7 @@
 	<section name="JavaElementSearchActions">
 	</section>
 	<section name="BuildPathsPropertyPage">
-		<item key="pageIndex" value="3"/>
+		<item key="pageIndex" value="0"/>
 	</section>
 	<section name="completion_proposal_size">
 	</section>
@@ -61,6 +61,8 @@
 		<item key="updateTextualMatches" value="false"/>
 		<item key="updateQualifiedNames" value="false"/>
 		<item key="patterns" value="*"/>
+		<item key="updateSimilarElements" value="false"/>
+		<item key="updateSimilarElementsMatchStrategy" value="1"/>
 	</section>
 	<section name="SourceActionDialog.constructors">
 		<item key="VisibilityModifier" value="1"/>
