@@ -22,3 +22,9 @@ create table simple_bbs (
 
 drop sequence simple_bbs_seq;
 create sequence simple_bbs_seq;
+select * from simple_bbs;
+
+SELECT A.ename AS ename1, B.deptno AS dno1, B.dname AS dname1
+			FROM emp A, dept B
+			WHERE A.deptno = B.deptno
+				AND B.deptno = 10;

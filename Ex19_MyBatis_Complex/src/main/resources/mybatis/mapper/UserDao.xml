@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.study.springboot.jdbc.IDao">
+	 <select id="getEmployee" resultType="com.study.springboot.jdbc.UserDTO">
+		SELECT A.ename, B.deptno, B.dname
+			FROM emp A, dept B
+			WHERE A.deptno = B.deptno
+				AND B.deptno = 10
+	</select>
+	<!-- <select id="getEmployee" resultType="com.study.springboot.jdbc.UserDTO">
+		SELECT A.ename AS ename1, B.deptno AS dno1, B.dname AS dname1
+			FROM emp A, dept B
+			WHERE A.deptno = B.deptno
+				AND B.deptno = 10
+	</select> -->
+	
+	
+
+</mapper>
