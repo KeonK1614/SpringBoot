@@ -28,3 +28,38 @@ SELECT A.ename AS ename1, B.deptno AS dno1, B.dname AS dname1
 			FROM emp A, dept B
 			WHERE A.deptno = B.deptno
 				AND B.deptno = 10;
+                
+create table Transaction1 (
+    consumerId varchar2(10),
+    amount number
+);
+
+create table Transaction2 (
+    consumerId varchar2(10),
+    amount number
+);
+
+create table transaction3 (
+    consumerId varchar2(10),
+    amount number
+);
+
+
+select * from Transaction1;
+select * from Transaction2;
+select * from transaction3;
+
+create table user_list (
+    name varchar2(20) primary key,
+    password varchar2(100),
+    authority varchar(20),
+    enabled number(1)
+);
+
+delete from user_list;
+insert into user_list values ('user', '$2a$10$9vNJPl108QxxVRgLg.hYIeRDLMIhtQg6iqm1OQXAaG5n7Brb9LwpW', 'ROLE_USER', 1);
+insert into user_list values ('admin', '$2a$10$9vNJPl108QxxVRgLg.hYIeRDLMIhtQg6iqm1OQXAaG5n7Brb9LwpW', 'ROLE_ADMIN', 1);
+
+
+commit;
+select * from user_list;

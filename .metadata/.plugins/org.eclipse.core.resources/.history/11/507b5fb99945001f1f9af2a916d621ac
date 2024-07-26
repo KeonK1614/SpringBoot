@@ -1,7 +1,0 @@
-package com.study.springboot.bean;
-
-public class Member {
-	private String name;
-	private STring nickname;
-	private Printer printer;
-}
