@@ -13,7 +13,7 @@ import { getDatabase, ref, onValue, set, child, push, onChildAdded, query, limit
 	from 'https://www.gstatic.com/firebasejs/10.4.0/firebase-database.js'
 
   var firebaseConfig = {
-    apiKey: "AIzaSyBZIH5I2XcO5bDJa3rG0r5rn2xcFiWo7Fg",
+    apiKey: "",
     authDomain: "springbootstudy-57416.firebaseapp.com",
     databaseURL: "https://springbootstudy-57416-default-rtdb.firebaseio.com",
     projectId: "springbootstudy-57416",
