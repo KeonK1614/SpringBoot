@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,20 +7,21 @@
 <title>Insert title here</title>
 </head>
 <body>
-<%
+	<%
 	String id = request.getParameter("id");
 	String pw = request.getParameter("pw");
-	
+
 	if (id == null) {
-%>
+	%>
 	<jsp:forward page="login.jsp" />
-<%
+	<%
 	} else {
-		session.setAttribute("uid", id);
+	session.setAttribute("uid", id);
 	}
-%>
+	%>
 	<div>
-		사용자 아이디 : <%= id %>
+		사용자 아이디 :
+		<%=id%>
 	</div>
 	<div>
 		<input type="text" id="messageinput" />
@@ -31,7 +32,7 @@
 		<button type="button" onclick="closeSocket();">Close</button>
 	</div>
 	<div id="messages"></div>
-	
+
 	<script type="text/javascript">
 		var webSocket;
 		var messages = document.getElementById("messages");
@@ -59,15 +60,16 @@
 		}
 		
 		function send() {
-			var id = "<%= id%>";
+			var id = "<%=id%>
+		";
 			var text = document.getElementById("messageinput").value;
 			webSocket.send(id + " | " + text);
 		}
-		
+
 		function closeSocket() {
 			webSocket.close();
 		}
-		
+
 		function writeResponse(text) {
 			messages.innerHTML += "<br/>" + text;
 		}

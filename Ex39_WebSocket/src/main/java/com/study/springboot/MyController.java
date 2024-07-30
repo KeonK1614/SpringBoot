@@ -13,17 +13,17 @@ public class MyController {
 	public @ResponseBody String root() throws Exception {
 		return "WebSocket사용하기";
 	}
-	
+
 	@RequestMapping("/login")
 	public String loginPage(Model model) {
 		return "login";
 	}
-	
+
 	@RequestMapping("/client")
 	public String clientPage(Model model) {
 		return "client";
 	}
-	
+
 	@Bean
 	public ServerEndpointExporter serverEndpointExporter() {
 		return new ServerEndpointExporter();
