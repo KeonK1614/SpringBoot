@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <title>Insert title here</title>
 <script type="module">
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js'
@@ -13,7 +13,7 @@ import { getDatabase, ref, onValue, set, child, push, onChildAdded, query, limit
 	from 'https://www.gstatic.com/firebasejs/10.4.0/firebase-database.js'
 
   var firebaseConfig = {
-    apiKey: "",
+    apiKey: "AIzaSyBZIH5I2XcO5bDJa3rG0r5rn2xcFiWo7Fg",
     authDomain: "springbootstudy-57416.firebaseapp.com",
     databaseURL: "https://springbootstudy-57416-default-rtdb.firebaseio.com",
     projectId: "springbootstudy-57416",

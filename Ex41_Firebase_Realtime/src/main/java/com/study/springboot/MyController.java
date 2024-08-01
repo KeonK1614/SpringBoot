@@ -13,8 +13,13 @@ public class MyController {
 		return "Firebase 사용하기";
 	}
 	
-	@RequestMapping("/realtime")
+//	@RequestMapping("/realtime")
+//	public String realTime(Model model) {
+//		return "realtime";
+//	}
+	
+	@RequestMapping("/firestore")
 	public String realTime(Model model) {
-		return "realtime";
+		return "firestore";
 	}
 }
