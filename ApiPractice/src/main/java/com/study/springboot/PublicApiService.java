@@ -13,9 +13,9 @@ public class PublicApiService {
 
     @Autowired
     private RestTemplate restTemplate;
-    private static final String API_KEY = "$2a$10$awTAwYYxOBZZVdftW.UQX.KnbG0SIO6tkPEfl.785K7p/.xpaXdiO";
+    private static final String API_KEY = "41454b73586b656f3532696e475a55";
 
-    private static final String API_URL = "https://openapi.kric.go.kr/openapi/vulnerableUserInfo/stationDisabledToilet?serviceKey=" + API_KEY + "&format=xml&railOprIsttCd=S1&lnCd=3&stinCd=322";
+    private static final String API_URL = "http://openapi.seoul.go.kr:8088/" + API_KEY + "/json/tbTraficElvtr/1/5/";
     		
     public String getData() {
         HttpHeaders headers = new HttpHeaders();

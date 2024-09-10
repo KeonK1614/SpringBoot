@@ -15,59 +15,68 @@ import org.springframework.security.web.authentication.AuthenticationFailureHand
 
 import jakarta.servlet.DispatcherType;
 
-@Configuration
-public class WebSecurityConfig {
+@Configuration	
+public class WebSecurityConfig 
+{  
 	@Autowired
-	public AuthenticationFailureHandler authenticationFailureHandler;
+	public AuthenticationFailureHandler authenticationFailureHandler;	// 변수 선언
 	
+	@Bean  
+	protected SecurityFilterChain filterChain(HttpSecurity http) throws Exception 
+	{  
+        http.csrf((csrf) -> csrf.disable())
+    		.cors((cors) -> cors.disable())
+        	.authorizeHttpRequests(request -> request  
+        		.dispatcherTypeMatchers(DispatcherType.FORWARD).permitAll()
+        		.requestMatchers("/").permitAll()
+                .requestMatchers("/css/**", "/js/**", "/img/**").permitAll()
+                .requestMatchers("/guest/**").permitAll()  // 모두에게 허용.
+                .requestMatchers("/loginForm", "/j_spring_security_check", "/logout").permitAll() // 로그인 관련 경로는 모두 허용
+                .requestMatchers("/member/**").hasAnyRole("USER", "ADMIN") // 두권한 허용
+                .requestMatchers("/admin/**").hasRole("ADMIN") // ADMIN만 허용
+                .anyRequest().authenticated()	// 어떠한 요청이라도 인증 필요
+            );
+        
+        http.formLogin((formLogin) -> formLogin
+    			.loginPage("/loginForm") 			// default : /login
+    		    .loginProcessingUrl("/j_spring_security_check")	// 바꾸면 안됨.
+//    	        .failureUrl("/loginForm?error") 			// default : /login?error
+    		    .failureHandler(authenticationFailureHandler)	// 2 단계. 지정 선언 
+    		    .usernameParameter("j_username")	// default : j_username
+    	        .passwordParameter("j_password") 	// default : j_password
+    	        .permitAll()
+    	    );
+        
+        http.logout((logout) -> logout
+        		// 이것이 없으면 기본 폼이 나옴.
+    	        .logoutUrl("/logout") // default
+    	        .logoutSuccessUrl("/")	// 처음 페이지로
+    	        .permitAll()
+    	    );
+        
+        return http.build(); 
+    }
+ 
 	@Bean
-	protected SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
-		http.csrf((csrf) -> csrf.disable())
-			.cors((cors) -> cors.disable())
-			.authorizeHttpRequests(request -> request
-				.dispatcherTypeMatchers(DispatcherType.FORWARD).permitAll()
-				.requestMatchers("/").permitAll()
-				.requestMatchers("/css/**", "/js/**", "/img/**").permitAll()
-				.requestMatchers("/guest/**").permitAll()
-				.requestMatchers("/member/**").hasAnyRole("USER", "ADMIN")
-				.requestMatchers("/admin/**").hasRole("ADMIN")
-				.anyRequest().authenticated()
-			);
-		http.formLogin((formLogin) -> formLogin
-				.loginPage("/loginForm")
-				.loginProcessingUrl("/j_spring_security_check")
-//				.failureUrl("/loginForm?error")
-				.failureHandler(authenticationFailureHandler)
-				.usernameParameter("j_username")
-				.passwordParameter("j_password")
-				.permitAll()
-		);
-		
-		http.logout((logout) ->logout
-				.logoutUrl("/logout/")
-				.logoutSuccessUrl("/")
-				.permitAll()
-		);
-		return http.build();			
-	}
-	
-	@Bean
-	protected UserDetailsService users() {
-		UserDetails user = User.builder()
-				.username("user")
-				.password(passwordEncoder().encode("1234"))
-				.roles("USER")
-				.build();
-		UserDetails admin = User.builder()
-				.username("admin")
-				.password(passwordEncoder().encode("1234"))
-				.roles("USER", "ADMIN")
-				.build();
-		
-		return new InMemoryUserDetailsManager(user, admin);
-	}
-	
-	public PasswordEncoder passwordEncoder() {
-		return PasswordEncoderFactories.createDelegatingPasswordEncoder();
-	}
+    protected UserDetailsService users() 
+    {
+        UserDetails user = User.builder()
+        		.username("user")
+        		.password(passwordEncoder().encode("1234"))
+        		.roles("USER")	// ROLE_USER 에서 ROLE_ 자동으로 붙는다.
+        		.build();
+        UserDetails admin = User.builder()
+        		.username("admin")
+        		.password(passwordEncoder().encode("1234"))
+        		.roles("USER", "ADMIN")	
+        		.build();
+        
+        // 메모리에 사용자 정보를 담는다.	
+        return new InMemoryUserDetailsManager(user, admin);
+    }
+    
+    public PasswordEncoder passwordEncoder() 
+    {
+    	return PasswordEncoderFactories.createDelegatingPasswordEncoder();
+    }
 }
